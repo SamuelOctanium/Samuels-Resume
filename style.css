@@ -14,6 +14,11 @@ svg{
     object-fit:contain;
 }
 
+.anchor{
+    color: white !important;
+    text-decoration: none !important;
+}
+
 
 *{
     margin: 0px;
@@ -37,13 +42,14 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 800px;
+    width: 1120px;
     height: 1600px;
     margin:100px auto;
     background: var(--white);
     box-shadow: 5px 20px 20px 20px #00000038;
 
 }
+
 
 .left-section{
     display: flex;
@@ -52,7 +58,7 @@ body{
     justify-content:flex-start;
     text-align:justify;
     background: var(--black);
-    width:250px;
+    width: 320px;
     height:1600px;
     float:left;
 }
@@ -138,7 +144,6 @@ body{
     width:184px;
     margin: 0 auto;
     margin-top: 25px;
-    font-size: 15px;
     line-height: 14px;
 
 }
@@ -219,12 +224,11 @@ body{
 }
 
 .p4{
-    font-size: 14px;
     font-weight: bold;
 }
 
 .p5{
-    font-size: 12px;
+    font-size: 15px;
     color:var(--lightgray);
 
 }
